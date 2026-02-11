@@ -16,12 +16,12 @@ function Test() {
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <StarRating
+    {/* <StarRating
       maxRating={6}
       messages={["Terrible", "bad", "okay", "good", "amazing"]}
     />
-    <StarRating maxRating={9} color="red" className="test" defaultRating={5} />
-    <Test />
-    {/* <App /> */}
+    <StarRating maxRating={9} color="red" className="test" defaultRating={5} /> */}
+    {/* <Test /> */}
+    <App />
   </StrictMode>,
 );
